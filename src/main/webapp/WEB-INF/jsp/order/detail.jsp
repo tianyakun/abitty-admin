@@ -175,13 +175,13 @@
                             <dt>操作：</dt>
                             <c:choose>
                                 <c:when test="${subOrder.status eq 0}">
-                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/1'/>" target="navTab" rel="catalog">备货</a></dd>
+                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/1'/>" target="navTab" rel="detail">备货</a></dd>
                                 </c:when>
                                 <c:when test="${subOrder.status eq 1}">
-                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/2'/>" target="navTab" rel="catalog">发货</a></dd>
+                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/2'/>" target="navTab" rel="detail">发货</a></dd>
                                 </c:when>
                                 <c:when test="${subOrder.status eq 2}">
-                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/3'/>" target="navTab" rel="catalog">确认收货</a></dd>
+                                    <dd><a href="<c:url value='order/sub/update/${order.id}/${subOrder.id}/3'/>" target="navTab" rel="detail">确认收货</a></dd>
                                 </c:when>
                             </c:choose>
                         </dl>

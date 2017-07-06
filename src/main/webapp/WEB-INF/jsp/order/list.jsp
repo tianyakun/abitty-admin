@@ -112,7 +112,7 @@
                     <td>${item.finishSub}</td>
                     <td>${item.nextSub}</td>
                     <td>${item.nextSubTime}</td>
-                    <td><a href="<c:url value='order/detail/${item.id}'/>" target="navTab" rel="catalog">订单详情</a></td>
+                    <td><a href="<c:url value='order/detail/${item.id}'/>" target="navTab" rel="detail">订单详情</a></td>
                 </tr>
             </c:forEach>
             </tbody>
